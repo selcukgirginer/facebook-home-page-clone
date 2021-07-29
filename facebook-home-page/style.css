@@ -1,0 +1,163 @@
+@media only screen and (min-width: 1365px) {
+    body {
+        margin: 0vh 0vh 0vh 0vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header {
+        background-color: #f0f2f5;
+        height: 90.7vh;
+    }
+    header p {
+        font-size: 25px;
+        margin-left: 30vh;
+        margin-top: -1.8vh;
+    }
+    .lp {
+        float: right;
+        background-color: white;
+        width: 50vh;
+        margin-right: 32.5vh;
+        height: 44vh;
+        margin-top: -32vh;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+        text-align: center;
+    }
+    .username {
+        border-radius: 5px;
+        border: 1px solid #dddfe2;
+        height: 6vh;
+        width: 43vh;
+        margin-top: 2vh;
+        font-size: 17px;
+        padding-left: 2vh;
+        outline-color: #dddfe2;
+    }
+    .username::selection {
+        background-color: #1877f2;
+        color: white;
+    }
+    .username:focus {
+        outline-color: #1877f2;
+        outline-offset: 0px;
+    }
+    .username:focus::placeholder {
+        color: rgb(212, 212, 212, 1);
+    }
+    .username::placeholder {
+        color: rgb(148, 148, 148);
+    }
+    .password {
+        border-radius: 5px;
+        border: 1px solid #dddfe2;
+        height: 6vh;
+        width: 43vh;
+        margin-top: 1.5vh;
+        font-size: 17px;
+        padding-left: 2vh;
+        outline-color: #dddfe2;
+    }
+    .password::selection {
+        background-color: #1877f2;
+        color: white;
+    }
+    .password:focus {
+        outline-color: #1877f2;
+        outline-offset: 0px;
+    }
+    .password:focus::placeholder {
+        color: rgb(212, 212, 212, 1);
+    }
+    .password::placeholder {
+        color: rgb(148, 148, 148);
+    }
+    .logo {
+        width: 300px;
+        height: 106px;
+        margin-top: 22.2vh;
+        margin-left: 26.6vh;
+    }
+    .bt {
+        background-color: #1877f2;
+        outline: none;
+        border: none;
+        width: 45.5vh;
+        margin-top: 2vh;
+        height: 6vh;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .bt:active {
+        background-color: #146cdf;
+    }
+    .bt:hover {
+        background-color: #1570e7;
+    }
+    .sifre {
+        margin-top: 1.5vh;
+    }
+    .sifreyenile {
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .sifreyenile {
+        text-decoration: none;
+        color: #1877f2;
+    }
+    .sifreyenile:hover {
+        text-decoration: underline;
+    }
+    .register {
+        background-color: #42b72a;
+        outline: none;
+        border: none;
+        margin-top: 2.5vh;
+        width: 23.5vh;
+        height: 6vh;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .page {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+    }
+    .page:hover {
+        text-decoration: underline;
+    }
+    footer {
+        background-color: #ffffff;
+        height: 20.2vh;
+        padding-top: 2vh;
+        font-size: 11px;
+        color: #8a8d91;
+        margin-left: -8vh;
+    }
+    footer div {
+        padding-left: 32vh;
+        float: left;
+    }
+    footer div ul li {
+        float: left;
+        list-style: none;
+        margin-right: 1vh;
+    }
+    footer div ul li a {
+        text-decoration: none;
+        color: gray;
+    }
+    footer div ul li a:hover {
+        text-decoration: underline;
+        color: gray;
+    }
+    .two-ul li {
+        margin-right: 2.5vh;
+        margin-bottom: 0.5vh;
+    }
+}
